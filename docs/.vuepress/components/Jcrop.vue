@@ -59,5 +59,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~jcrop/build/css/jcrop.scss";
+@import "~jcrop/src/css/jcrop.scss";
 </style>

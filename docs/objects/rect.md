@@ -144,4 +144,4 @@ const [w,h] = Jcrop.Rect.getMax(200,150,ratio);
 
 ## Source Code
 
-<<< @/build/js/rect.js
+<<< @/src/rect.js

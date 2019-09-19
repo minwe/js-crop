@@ -3,3 +3,5 @@ node_modules
 .*.sw?
 
 docs/.vuepress/dist
+es
+lib

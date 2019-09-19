@@ -12,7 +12,7 @@
       Jcrop Example <span style="color:lightgray;">- draw some crops!</span>
     </h1>
 
-    <img id="target" src="https://d3o1694hluedf9.cloudfront.net/market-750.jpg">
+    <img id="target" src="https://gw.alipayobjects.com/mdn/contentmng/afts/img/A*75QlSou9P2sAAAAAAAAAAABkARQnAQ">
 
     <div style="margin-top:0.5em;">
       <select id="animtype">
@@ -72,8 +72,9 @@
 
     <script src="../dist/jcrop.js"></script>
     <script>
+      var Jcrop = JSCrop;
       var jcp;
-      Jcrop.load('target').then(img => {
+      JSCrop.load('target').then(img => {
         jcp = Jcrop.attach(img,{multi:true});
         const rect = Jcrop.Rect.sizeOf(jcp.el);
         jcp.newWidget(rect.scale(.7,.5).center(rect.w,rect.h));

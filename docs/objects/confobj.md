@@ -7,4 +7,4 @@ lang: en-US
 
 #### Source Code
 
-<<< @/build/js/confobj.js
+<<< @/src/confobj.js

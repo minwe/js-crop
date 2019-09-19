@@ -10,9 +10,10 @@ const extractPlugin = new ExtractTextPlugin({
 
 module.exports = {
   entry: {
-    jcrop: './build/js/jcrop.js'
+    jcrop: './src/jcrop.js'
   },
-  devtool: 'source-map',
+  devtool: false,
+  // devtool: 'source-map',
   module: {
     rules: [
       {
@@ -33,7 +34,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-    library: 'Jcrop'
+    library: 'JSCrop',
+    libraryTarget: 'umd'
   },
   resolve: {
     alias: { }

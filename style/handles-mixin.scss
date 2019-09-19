@@ -1,10 +1,11 @@
-@mixin jcrop-handles($size:10px,$offset:7px,$border:1px black solid,$bg:white) {
+@mixin jcrop-handles($size:10px, $offset:7px, $border:1px #fff solid, $bg:white) {
   position: absolute;
   border: $border;
   width: $size;
   height: $size;
   box-sizing: border-box;
   background: $bg;
+  border-radius: 50%;
 
   &.nw {
     top: -$size + $offset;
