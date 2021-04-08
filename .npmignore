@@ -166,3 +166,4 @@ scripts
 src
 style
 webpack.config.babel.js
+.idea
